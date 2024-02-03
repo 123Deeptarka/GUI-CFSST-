@@ -8,8 +8,8 @@ This is a temporary script file.
 
 import streamlit as st
 import pandas as pd 
-import shap 
-import matplotlib.pyplot as plt
+#import shap 
+#import matplotlib.pyplot as plt
 
 st.write("""
  # **GUI for Rectangular CFSST Columns** """
@@ -71,8 +71,8 @@ st.write('---')
 
 
 
-explainer=shap.TreeExplainer(model)
-shap_values=explainer.shap_values(x)
+#explainer=shap.TreeExplainer(model)
+#shap_values=explainer.shap_values(x)
 
 #st.header("Feature Importance")
 #plt.title("Feature Importance Based on Shap Values")
